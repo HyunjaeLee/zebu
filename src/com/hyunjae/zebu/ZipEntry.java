@@ -14,6 +14,10 @@ public class ZipEntry<T> {
         return entry.get(index);
     }
 
+    public T set(int index, T element) {
+        return entry.set(index, element);
+    }
+
     @Override
     public String toString() {
         return entry.toString();
